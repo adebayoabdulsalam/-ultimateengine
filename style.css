@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+nav {
+    display: flex;
+}
+
+nav .logo img {
+    height: 40px;
+    width: 70px;
+}
+
+nav .application img {
+    position: relative;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    height: 24px;
+    left: 61pc;
+    top: 7px;
+    display: inline-block;
+    gap: 45px;
+}
+
+.nav {
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 56px;
+    position: relative;
+    right: 100px;
+
+}
+
+.nav li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav .active {
+    color: orange;
+}
+
+hr {
+    border: 1px solid ghostwhite;
+}
+.home-page{
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    position: relative;
+    top: 85px;
+}
+
+h1{
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    bottom: 45px;
+}
+.home-page h3{
+    display: block;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.home-page button{
+    height: 45px;    
+    width: 256px;
+    background: white;
+    box-shadow: 9px 9px 9px  orange;
+    border: 1px solid orange;
+}
+.home-page .image{
+    height: 45pc;
+    width: 45pc;
+}
+.home-page .whatapp{
+    position: absolute;
+    le
