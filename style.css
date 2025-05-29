@@ -179,10 +179,9 @@ h1{
 }
 .big{
     position: absolute;
-    top: 65pc;
+    top: s75pc;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 4px;
 }
 .Do{
     position: relative;
@@ -190,10 +189,12 @@ h1{
     left: 15%;
 }
 .Do p{
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-.repair{
-    top: 64pc;
-
+.Do img{
+    height: 65pc;
+    width: 965px;
 }
+
